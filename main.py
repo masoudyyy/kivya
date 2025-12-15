@@ -1,3 +1,4 @@
+# این کد برای نوشتن به زبان فارسی در کیوی نوشته شده است
 from kivy.app import App
 from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
