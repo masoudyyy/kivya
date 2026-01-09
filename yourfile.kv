@@ -1,0 +1,10 @@
+<FarsiLabelContainer>:
+    orientation: 'vertical'
+    Label:
+        # Use the bidi_text property from the Python class
+        text: root.bidi_text
+        # Specify the path to your Farsi font file
+        font_name: "font/irsans.ttf"
+        # Optional: adjust alignment if needed (Kivy is LTR by default)
+        h_align: 'right'
+        text_size: self.size # Required for h_align to work correctly
